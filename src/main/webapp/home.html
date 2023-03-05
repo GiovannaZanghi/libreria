@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="foglioDiStile.css">
+		<script src="jquery.min.js"></script>
+		<script>
+			//$(function()) = $(document).ready(function())
+			$(function()
+			{
+				//.load(PAGINAHTML) permette di caricare una pagina html all'interno del div
+				//specificato -> #includedContent
+				$("#includedContent").load("/menu.html");
+			});
+		</script>
+	</head>
+	<body>
+		<div id="includedContent"></div>
+		<hr>
+		<h1>BENVENUTO NELLA LIBRERIA</h1>
+	</body>
+</html>
